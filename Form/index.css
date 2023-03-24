@@ -1,0 +1,33 @@
+form {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+ 
+ label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+ }
+ 
+ input[type="text"], input[type="desc"], input[type="date"] textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+ }
+ 
+ button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ 
+ button[type="submit"]:hover {
+    background-color: #45a049;
+ }
+ 
